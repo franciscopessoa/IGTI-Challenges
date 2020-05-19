@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="elements">
+      <div class="ranges">
+        <div>
+          <span class="red"></span>
+          <input
+            type="range"
+            min="0"
+            max="255"
+            value="0"
+            id="redRange"
+            step="1"
+          />
+          <input type="text" disabled id="redInput" />
+        </div>
+        <div>
+          <span class="green"></span>
+          <input
+            type="range"
+            min="0"
+            max="255"
+            value="0"
+            id="greenRange"
+            step="1"
+          />
+          <input type="text" disabled id="greenInput" />
+        </div>
+        <div>
+          <span class="blue"></span>
+          <input
+            type="range"
+            min="0"
+            max="255"
+            value="0"
+            id="blueRange"
+            step="1"
+          />
+          <input type="text" disabled id="blueInput" />
+        </div>
+      </div>
+      <div class="container"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
