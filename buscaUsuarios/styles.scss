@@ -1,0 +1,28 @@
+// $text-color: white;
+
+// @mixin box-shadow {
+//     box-shadow: 2px 2px 4px -2px rgba(#000000, 1);
+// }
+
+// body {
+//     background: #7159c1;
+//     color: $text-color;
+
+//     input {
+//         color: red;
+//         @include box-shadow();
+//         @extend body;
+//         &:hover {
+//             color: blue;
+//         }
+//     }
+// }
+
+.btn {
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}

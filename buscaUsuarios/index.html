@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+  </head>
+  <body>
+    <div class="title">
+      SPU - Sistema de pesquisa de usuários
+    </div>
+    <div class="search input-field">
+      <input type="text" id="searchUser" />
+      <label for="searchUser">Usuário</label>
+      <a class="waves-effect waves-light btn disabled">Pesquisar</a>
+    </div>
+    <div class="containers">
+      <div class="container">
+        <h3 id="titleUsers"></h3>
+        <div class="users"></div>
+      </div>
+      <div class="container">
+        <h3 id="titleStatistics"></h3>
+        <div class="statistics"></div>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./script.js"></script>
+</html>
